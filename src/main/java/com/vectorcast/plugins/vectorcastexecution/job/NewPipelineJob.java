@@ -358,7 +358,6 @@ public class NewPipelineJob extends BaseJob {
 		String preamble = "";
 		String teardown = "";
 
-		// Doing once per MultiJobDetail similar to MultiJob plugin
         if ((executePreamble != null) && (!executePreamble.isEmpty())) {
             preamble = executePreamble.replace("\\","/").replace("\"","\\\"");
         }

@@ -41,9 +41,6 @@ import org.kohsuke.stapler.StaplerRequest;
 import org.kohsuke.stapler.StaplerResponse;
 import org.kohsuke.stapler.interceptor.RequirePOST;
 
-/**
- * Create multiple jobs
- */
 @Extension
 public class VectorCASTJobPipeline extends JobBase {
     /** Job exists exception */
